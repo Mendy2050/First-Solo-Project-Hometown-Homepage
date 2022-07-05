@@ -1,0 +1,181 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero-section {
+    background-image: url(./img/qiao.jpg);
+    background-size: cover;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 0 15px;
+    margin-top: 50px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ecd8c8;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 100;
+    width: 370px;
+    color: white;
+    text-shadow: 0px 0px 2px white;
+    text-decoration: underline;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+/* 中间部分 */
+
+.activity-section {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background: #F1FAEE;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.activity-wrapper {
+    display: flex;
+    Justify-content: center;
+    padding: 0 25px;
+}
+
+.activity2 {
+    margin: 0 auto;
+}
+
+.activity1,
+.activity2,
+.activity3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity-guide {
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    ;
+    text-decoration: underline;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.place1,
+.place2,
+.place3 {
+    font-size: 12px;
+    margin: 5px 0;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: underline;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.description1,
+.description2,
+.description3 {
+    font-size: 8px;
+    margin: 0 auto;
+    width: 180px;
+    line-height: 20px;
+    font-style: italic;
+}
+
+.pic1 {
+    background-image: url(./img/bingxuedashijie6.jpg);
+    background-position: -50px 10px;
+}
+
+.pic2 {
+    background-image: url(./img/suofeiya.jpg);
+    background-position: -50px 0;
+}
+
+.pic3 {
+    background-image: url(./img/zhongyangdajie.png);
+    background-position: -50px 0;
+}
+
+.img-round {
+    background-size: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+/* 最底部 */
+
+.guide-section {
+    box-sizing: content-box;
+    /* background-color: red; */
+    padding: 80px;
+}
+
+.guide-wrapper {
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+    background: #e0f3f3;
+    border-bottom: 5px solid #1D3557;
+}
+
+.my-pic {
+    background-image: url(./img/wo.png);
+    background-size: cover;
+    background-position: -40px 0;
+    width: 600px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.business-card {
+    margin-right: 20px;
+}
+
+.my-guide {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    text-shadow: 0 0 1px yellow;
+}
+
+p {
+    font-style: italic;
+    font-size: 8px;
+    text-shadow: 0 0 2px white;
+}
+
+h4 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    text-shadow: 0 0 1px yellow;
+}
